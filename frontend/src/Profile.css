@@ -1,0 +1,84 @@
+.profile {
+  background-image: url("image1.jpg");
+  background-size: cover;
+  height: 150vh;
+}
+.profile h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: verdana;
+  text-transform: uppercase;
+  word-spacing: 1px;
+  letter-spacing: 2px;
+  color:#e474d5;
+}
+.profile-box {
+  width: 300px;
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px double #868ac2;
+  background-color: rgb(250, 228, 250);
+  margin: 50px auto;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.profile-box button{
+    background-color: #d6807d;
+    color: rgb(68, 21, 179);
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 60px;
+    cursor: pointer;
+    background:  #5dc4d6;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.edit button{
+  font-weight: bold;
+  font-size: larger;
+  padding: 10px 15px;
+  border-radius: 5px;
+  width: 120%;
+  margin-top: 20px;
+  cursor: pointer;
+  background: linear-gradient(to right, #5dc4d6 , #d66fc8);
+  color: black;
+  text-align: center;
+}
+.save button{
+  font-weight: bold;
+  font-size: larger;
+  padding: 10px 10px;
+  border-radius: 5px;
+  width: 30%;
+  align-items: center;
+  margin-top: 20px;
+  cursor: pointer;
+  background: linear-gradient(to right, #5dc4d6 , #d66fc8);
+  color: black;
+  text-align: center;
+}
+
+.follow button {
+  background: linear-gradient(to bottom right,#5dc4d6 , #d66fc8);
+  border-radius: 50%;
+  border: none;
+  color: #7a3899;
+  font-size: 16px;
+  width: 25px; /* Adjust the width and height as needed */
+  height: 25px;
+  text-align: center;
+  align-items: center;
+  text-decoration: khaki;
+  display: inline-block;
+  cursor: pointer;
+  overflow: hidden; /* This will hide any content that exceeds the circle */
+}
+
